@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title></title>
+		<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+	</head>
+	<body>
+		<div class="app">
+			<div class="music">
+				<span></span>
+				<span>狼人杀</span>
+				<i class="iconfont icon-yinxiang" style="margin-right: 0.325rem;">
+				</i>
+
+			</div>
+			<audio id="music" controls="" autoplay="" src="1.mp3" style="display: none;">
+
+			</audio>
+
+		
+				<div id="container">
+					<a class="item" href="#"><img src="img/2017481837292119.jpg" /></a>
+					<a class="item" href="#"><img src="img/15501097482219_0.jpg"/></a>
+					<a class="item" href="#"><img src="img/006tT5Uqjw1f4t8nx4u7cj30dw07mq3u.jpg" /></a>
+					<a class="item" href="#"><img src="img/208-1PG0112J9.jpg" /></a>
+		
+				</div>
+
+
+
+			<form action="" method="">
+				<label for=''>
+					<span>用户名</span>
+					<input type="text" id="username" placeholder="请输入您的用户名">
+					<p></p>
+				</label>
+				<label for=''>
+					<span>密 码</span>
+					<input type="password" id="password" placeholder="请输入您的密码">
+					<p></p>
+				</label>
+				<label for="" id="Lr">
+					<button id="LoginSave" type="submit">登 录</button>
+					<a href="register.html">注册</a>
+				</label>
+
+			</form>
+		</div>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			$(document).ready(function(){
+				var i = 0;
+				var timer;
+
+				//用jquery方法设置第一张图片显示，其余隐藏
+				$('.item').eq(0).show().siblings('.item').hide();
+				showTime();
+
+			
+				//创建一个showTime函数
+				function showTime() {
+					//定时器
+					timer = setInterval(function() {
+						//调用一个Show()函数
+						Show();
+						i++;
+						//当图片是最后一张的后面时，设置图片为第一张
+						if (i == 5) {
+							i = 0;
+						}
+					}, 2000);
+				}
+
+
+				//创建一个Show函数
+				function Show() {
+					//在这里可以用其他jquery的动画
+					$('.item').eq(i).fadeIn(0).siblings('.item').fadeOut(0);
+
+		
+
+				}
+
+			});
+		</script>
+	</body>
+
+</html>

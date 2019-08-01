@@ -1,0 +1,164 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(../img/u=3935986957,852198249&fm=26&gp=0.jpg) no-repeat center;
+	background: cover;
+}
+.app{
+	width: 100%;
+	height: 100%;
+}
+form{
+	width:70%;
+ 	height: auto;
+ 	margin: 0 auto; 
+	margin-top: 4.375rem;
+}
+label{
+	width: 100%;
+	height: 3rem; 
+	
+	
+}
+.music{
+    width: 100%;
+
+	height: 3rem;
+    display: flex;
+	justify-content: space-between;
+	color: #F0F8FF;
+	line-height: 3rem;
+}
+.music span:nth-of-type(2){
+	
+	font-size: 1.4rem;
+}
+#password{
+	margin-left: 0.625rem;
+}
+input{
+	height: 2rem;
+	border-radius: 0.3125rem;
+	outline: none;
+}
+#LoginSave{
+ 	margin: 0 auto;
+ 	width: 30%;
+	border: none;
+ 	height: 2.1875rem;
+ 	border-radius: 0.3125rem;
+ 	background: #008000;
+ 	color: #fff;
+ }
+#Lr a{
+	display: inline-block;
+    margin:0  auto;
+	width: 30%;
+	border: none;
+	height: 2.1875rem;
+	border-radius: 0.3125rem;
+	background: #008000;
+	color: #fff;
+	text-align: center;
+	padding: 0.5625rem;
+	
+}
+ #Lr{
+	 margin-top: 1.875rem;
+	 width: 100%;
+	 display: flex;
+	 justify-content: space-between;
+ }
+ .carousel-indicators li{
+	 display: none;
+ }
+ span{
+	 color: white;
+ }
+  .state1 {
+ 
+    color: #aaa;
+ 
+  }
+ 
+  .state2 {
+ 
+    color: gold;
+ 
+  }
+ 
+  .state3 {
+ 
+    color: red;
+ 
+  }
+ 
+  .state4 {
+ 
+    color: pink;
+ 
+  }
+  
+ #container{
+	width:100%;
+	height:48%;
+
+}
+ #container  a img{
+	 width:100%;
+	 height: 100%;
+	
+	 
+ }
+.item{
+	 width:100%;
+	height: 100%;
+}
+ 
+#tabs{
+	position:absolute;
+	right:30px;
+	bottom:20px;
+}
+.tab{
+	float:left;
+	margin-right:10px;
+	width:6px;
+	height:6px;
+	border:3px solid rgba(184,178,182,.8);
+	border-radius:50%;
+	background:#989196;
+	cursor:pointer;
+}
+.active{
+	background:#fff;
+	border-color:#999497;
+}
+.btn{
+	position:absolute;
+	top:50%;
+	margin-top:-35px;
+	width:40px;
+	height:70px;
+	color:#d6d3d5;
+	font-size:36px;
+	line-height:70px;
+	text-align:center;
+	cursor:pointer;
+}
+.btn:hover{
+	background:rgba(127,120,125,0.8);
+}
+.prev{
+	position:absolute;
+	left:235px;
+	border-radius:0 5px 5px 0;	
+}
+.next{
+	position:absolute;
+	right:0;
+	border-radius:5px 0 0 5px;
+}

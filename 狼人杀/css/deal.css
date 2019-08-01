@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100%;
+}
+.app{
+	width: 100%;
+	height: 100%;
+	background: #808080;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+.music{
+    width: 100%;
+
+	height: 3rem;
+    display: flex;
+	justify-content: space-between;
+	color: #F0F8FF;
+	line-height: 3rem;
+}
+.music span:nth-of-type(1){
+	font-size: 1.4rem;
+	margin-right: 3rem;
+	color: gold;
+}
+.order{
+	width: 3.5rem;
+	height: 3.5em;
+	background: red;
+	text-align: center;
+	line-height: 3.5rem;
+	border-radius: 50%;
+	margin: 0.3rem auto;
+}
+.images{
+	overflow: hidden;
+	height: 63%;
+	width: 80%;
+	margin: 0.8rem auto;
+}
+.images img{
+    width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 0.3125rem;
+    
+	
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+   
+}
+button{
+	width: 40%;
+	margin: 0.4rem auto;
+	height: 2.2rem;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+}
+#start{
+	display: none;
+}

@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.app{
+	width: 100%;
+	height: 100%;
+	background:url(../img/3f79062ac3994dfe8746425e33a278b4.jpeg) no-repeat center;
+	background-size: cover;
+	position: fixed;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.music{
+    width: 100%;
+   
+	height: 3rem;
+    display: flex;
+	justify-content: space-between;
+	color: #F0F8FF;
+	line-height: 3rem;
+}
+.music span:nth-of-type(1){
+	font-size: 1.4rem;
+	margin-right: 3rem;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 2rem;
+    display: flex;
+    flex-direction:column;
+	
+
+}
+label{
+	width: 100%;
+    height: 6.25rem;
+	color: white;
+    font-size: 1.5rem;
+
+}
+input{
+	margin-top: 0.3125rem;
+	width: 100%;
+	height: 2.125rem;
+	 font-size: 1.5rem;
+	 border-radius: 0.5125rem;
+}
+#Sr{
+	margin-top: 2.8rem;
+    display: flex;
+	justify-content: space-between;
+	
+}
+button{
+	width: 30%;
+	height: 45%;
+	font-size: 1.4rem;
+	border-radius: 0.6125rem;
+	background: aliceblue;
+}
+ #code{
+ width:40%;
+ height:50%;
+ font-size:1.4rem;
+ font-family:Arial; 
+ font-style:italic; 
+ font-weight:bold; 
+ border:0; 
+ letter-spacing:2px; 
+ color:blue; 
+  height: 2.5rem;
+ }
+ #checkk{
+	 margin-top: 0.2rem;
+	 display: flex;
+	 justify-content: space-between;
+ }
+ #check{
+	width: 30%;
+	height: 2.5rem;
+	font-size:1.3rem;
+ }
+   .state1 {
+
+      color: #aaa;
+
+    }
+
+    .state2 {
+
+      color: gold;
+
+    }
+
+    .state3 {
+
+      color: red;
+
+    }
+
+    .state4 {
+
+      color: pink;
+
+    }
+
+label p{
+	
+	position: relative;
+    left:0.625rem;
+	font-size: 1.375rem;
+}
